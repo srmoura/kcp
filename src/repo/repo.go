@@ -18,11 +18,11 @@ import (
 //Needed URLs for requests
 const (
 	HEADER        = "application/vnd.github.v3+json"
-	SEARCH_ALL    = "https://api.github.com/orgs/KaOS-Community-Packages/repos?page=%d&per_page=100&%s"
-	URL_REPO      = "https://github.com/KaOS-Community-Packages/%s.git"
-	URL_PKGBUILD  = "https://raw.githubusercontent.com/KaOS-Community-Packages/%s/master/PKGBUILD"
-	APP_ID        = "&client_id=11f5f3d9dab26c7fff24"
-	SECRET_ID     = "&client_secret=bb456e9fa4e2d0fe2df9e194974c98c2f9133ff5"
+	SEARCH_ALL    = "https://api.github.com/orgs/ArchARM-Community-Packages/repos?page=%d&per_page=100&%s"
+	URL_REPO      = "https://github.com/ArchARM-Community-Packages/%s.git"
+	URL_PKGBUILD  = "https://raw.githubusercontent.com/ArchARM-Community-Packages/%s/master/PKGBUILD"
+	APP_ID        = "&client_id=771d861a01eb78b2862f"
+	SECRET_ID     = "&client_secret=0a71215c13b508caab0942e1b1ff5dba1929768f"
 	IDENT         = APP_ID + SECRET_ID
 	PKGBUILDPROTO = "https://raw.githubusercontent.com/kaos-addict/kaos-helpers/master/PKGBUILD.commented.kaos.proto"
 )
@@ -58,7 +58,7 @@ type kcpPackage struct {
 
 //List of ignore repos
 var ignoreRepo = map[string]bool{
-	"KaOS-Community-Packages.github.io": true,
+	"ArchARM-Community-Packages.github.io": true,
 }
 
 var tr = gettext.Gettext

@@ -17,10 +17,10 @@ import (
 
 //Flags informations
 const (
-	LONGDESCRIPTION = `Provides a tool to make the use of KaOS Community Packages.
+	LONGDESCRIPTION = `Provides a tool to make the use of ArchARM-Community-Packages.
 
-With this tool, you can search, get and install a package from KaOS Community Packages.`
-	APP_DESCRIPTION = "Tool in command-line for KaOS Community Packages"
+With this tool, you can search, get and install a package from ArchARM-Community-Packages.`
+	APP_DESCRIPTION = "Tool in command-line for ArchARM-Community-Packages"
 	SYNOPSIS        = "(-h|-v|-u|(-l|-s <app>) [-fxNSIO]|-i <app> [-d]|-g <app>|-V <app>)"
 	D_HELP          = "Print this help"
 	D_VERSION       = "Print version"

@@ -1,6 +1,4 @@
-kcp
+kcp mod for ARM
 ===
 
-A command-line tool for KaOS Community Packages
-
-For more informations, see: https://github.com/KaOS-Community-Packages
+A command-line tool for ArchARM-Community-Packages
